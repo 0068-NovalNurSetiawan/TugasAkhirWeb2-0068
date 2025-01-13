@@ -1,0 +1,15 @@
+CRITICAL - 2025-01-06 07:04:14 --> ErrorException: Undefined variable $type
+[Method: POST, Route: formulir/anak]
+in APPPATH\Controllers\FormController.php on line 62.
+ 1 APPPATH\Controllers\FormController.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Controllers\\FormController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 6 SYSTEMPATH\CodeIgniter.php(887): class_exists()
+ 7 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')

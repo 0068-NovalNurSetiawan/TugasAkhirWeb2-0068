@@ -1,0 +1,181 @@
+INFO - 2024-12-28 01:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-28 01:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-28 02:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-28 02:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-28 03:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-28 03:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-28 03:12:42 --> ErrorException: Undefined variable $type
+[Method: POST, Route: formulir/anak]
+in APPPATH\Views\print_anak.php on line 12.
+ 1 APPPATH\Views\print_anak.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('print_anak', [], true)
+ 5 APPPATH\Controllers\FormController.php(39): view('print_anak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+CRITICAL - 2024-12-28 03:13:25 --> ErrorException: Undefined variable $data
+[Method: POST, Route: formulir/anak]
+in APPPATH\Views\print_anak.php on line 12.
+ 1 APPPATH\Views\print_anak.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('print_anak', [], true)
+ 5 APPPATH\Controllers\FormController.php(39): view('print_anak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+CRITICAL - 2024-12-28 03:13:28 --> ErrorException: Undefined variable $data
+[Method: POST, Route: formulir/anak]
+in APPPATH\Views\print_anak.php on line 12.
+ 1 APPPATH\Views\print_anak.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('print_anak', [], true)
+ 5 APPPATH\Controllers\FormController.php(39): view('print_anak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+CRITICAL - 2024-12-28 03:15:48 --> ErrorException: Undefined variable $type
+[Method: POST, Route: formulir/anak]
+in APPPATH\Views\print_anak.php on line 12.
+ 1 APPPATH\Views\print_anak.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $type', 'C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('print_anak', [], true)
+ 5 APPPATH\Controllers\FormController.php(39): view('print_anak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+CRITICAL - 2024-12-28 03:17:41 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: formulir/anak]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\FormController.php(41): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+CRITICAL - 2024-12-28 03:19:09 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: formulir/anak]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\FormController.php(45): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+CRITICAL - 2024-12-28 03:24:39 --> ErrorException: Undefined variable $nama
+[Method: POST, Route: formulir/anak]
+in APPPATH\Views\print_anak.php on line 13.
+ 1 APPPATH\Views\print_anak.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('print_anak', [], true)
+ 5 APPPATH\Controllers\FormController.php(72): view('print_anak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+CRITICAL - 2024-12-28 03:26:51 --> ErrorException: Undefined variable $umur
+[Method: POST, Route: formulir/anak]
+in APPPATH\Views\print_anak.php on line 14.
+ 1 APPPATH\Views\print_anak.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $umur', 'C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('print_anak', [], true)
+ 5 APPPATH\Controllers\FormController.php(72): view('print_anak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+CRITICAL - 2024-12-28 03:30:59 --> ErrorException: Undefined variable $alamat_sama_dno_hp_ortuengan_ortu
+[Method: POST, Route: formulir/anak]
+in APPPATH\Views\print_anak.php on line 23.
+ 1 APPPATH\Views\print_anak.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alamat_sama_dno_hp_ortuengan_ortu', 'C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('print_anak', [], true)
+ 5 APPPATH\Controllers\FormController.php(72): view('print_anak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+CRITICAL - 2024-12-28 03:31:39 --> ErrorException: Undefined variable $alamat_sama_dno_hp_ortuengan_ortu
+[Method: POST, Route: formulir/anak]
+in APPPATH\Views\print_anak.php on line 23.
+ 1 APPPATH\Views\print_anak.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alamat_sama_dno_hp_ortuengan_ortu', 'C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_anak.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('print_anak', [], true)
+ 5 APPPATH\Controllers\FormController.php(72): view('print_anak', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+CRITICAL - 2024-12-28 03:37:02 --> Error: Undefined constant "form_anak"
+[Method: POST, Route: formulir/anak]
+in APPPATH\Views\print_anak.php on line 26.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('print_anak', [], true)
+ 4 APPPATH\Controllers\FormController.php(72): view('print_anak', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+CRITICAL - 2024-12-28 03:38:07 --> ErrorException: Undefined variable $npekerjaanama_ayah
+[Method: POST, Route: formulir/dewasa]
+in APPPATH\Views\print_dewasa.php on line 26.
+ 1 APPPATH\Views\print_dewasa.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $npekerjaanama_ayah', 'C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_dewasa.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-novalnew\\app\\Views\\print_dewasa.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('print_dewasa', [], true)
+ 5 APPPATH\Controllers\FormController.php(47): view('print_dewasa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveDewasa()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')

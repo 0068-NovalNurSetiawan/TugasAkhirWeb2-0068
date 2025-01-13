@@ -1,0 +1,212 @@
+ERROR - 2025-01-07 02:55:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php(186): mysqli->real_connect()
+#1 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4-novalnew\system\BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(802): CodeIgniter\BaseModel->insert()
+#7 C:\xampp\htdocs\codeigniter4-novalnew\app\Controllers\FormController.php(45): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(933): App\Controllers\FormController->saveDewasa()
+#9 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 C:\xampp\htdocs\codeigniter4-novalnew\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#14 C:\xampp\htdocs\codeigniter4-novalnew\system\rewrite.php(44): require_once('...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#3 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\codeigniter4-novalnew\system\BaseModel.php(840): CodeIgniter\Model->doInsert()
+#5 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(802): CodeIgniter\BaseModel->insert()
+#6 C:\xampp\htdocs\codeigniter4-novalnew\app\Controllers\FormController.php(45): CodeIgniter\Model->insert()
+#7 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(933): App\Controllers\FormController->saveDewasa()
+#8 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 C:\xampp\htdocs\codeigniter4-novalnew\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#13 C:\xampp\htdocs\codeigniter4-novalnew\system\rewrite.php(44): require_once('...')
+#14 {main}
+CRITICAL - 2025-01-07 02:55:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: formulir/dewasa]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 5 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert()
+ 6 APPPATH\Controllers\FormController.php(45): CodeIgniter\Model->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveDewasa()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+ERROR - 2025-01-07 02:57:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php(186): mysqli->real_connect()
+#1 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4-novalnew\system\BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(802): CodeIgniter\BaseModel->insert()
+#7 C:\xampp\htdocs\codeigniter4-novalnew\app\Controllers\FormController.php(45): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(933): App\Controllers\FormController->saveDewasa()
+#9 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 C:\xampp\htdocs\codeigniter4-novalnew\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#14 C:\xampp\htdocs\codeigniter4-novalnew\system\rewrite.php(44): require_once('...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#3 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\codeigniter4-novalnew\system\BaseModel.php(840): CodeIgniter\Model->doInsert()
+#5 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(802): CodeIgniter\BaseModel->insert()
+#6 C:\xampp\htdocs\codeigniter4-novalnew\app\Controllers\FormController.php(45): CodeIgniter\Model->insert()
+#7 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(933): App\Controllers\FormController->saveDewasa()
+#8 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 C:\xampp\htdocs\codeigniter4-novalnew\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#13 C:\xampp\htdocs\codeigniter4-novalnew\system\rewrite.php(44): require_once('...')
+#14 {main}
+CRITICAL - 2025-01-07 02:57:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: formulir/dewasa]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 5 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert()
+ 6 APPPATH\Controllers\FormController.php(45): CodeIgniter\Model->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveDewasa()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+ERROR - 2025-01-07 02:57:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php(186): mysqli->real_connect()
+#1 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4-novalnew\system\BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(802): CodeIgniter\BaseModel->insert()
+#7 C:\xampp\htdocs\codeigniter4-novalnew\app\Controllers\FormController.php(45): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(933): App\Controllers\FormController->saveDewasa()
+#9 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 C:\xampp\htdocs\codeigniter4-novalnew\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#14 C:\xampp\htdocs\codeigniter4-novalnew\system\rewrite.php(44): require_once('...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#3 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\codeigniter4-novalnew\system\BaseModel.php(840): CodeIgniter\Model->doInsert()
+#5 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(802): CodeIgniter\BaseModel->insert()
+#6 C:\xampp\htdocs\codeigniter4-novalnew\app\Controllers\FormController.php(45): CodeIgniter\Model->insert()
+#7 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(933): App\Controllers\FormController->saveDewasa()
+#8 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 C:\xampp\htdocs\codeigniter4-novalnew\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#13 C:\xampp\htdocs\codeigniter4-novalnew\system\rewrite.php(44): require_once('...')
+#14 {main}
+CRITICAL - 2025-01-07 02:57:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: formulir/dewasa]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 5 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert()
+ 6 APPPATH\Controllers\FormController.php(45): CodeIgniter\Model->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveDewasa()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
+ERROR - 2025-01-07 02:58:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php(186): mysqli->real_connect()
+#1 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#4 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\codeigniter4-novalnew\system\BaseModel.php(840): CodeIgniter\Model->doInsert()
+#6 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(802): CodeIgniter\BaseModel->insert()
+#7 C:\xampp\htdocs\codeigniter4-novalnew\app\Controllers\FormController.php(70): CodeIgniter\Model->insert()
+#8 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+#9 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 C:\xampp\htdocs\codeigniter4-novalnew\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#14 C:\xampp\htdocs\codeigniter4-novalnew\system\rewrite.php(44): require_once('...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\codeigniter4-novalnew\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\codeigniter4-novalnew\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+#3 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\codeigniter4-novalnew\system\BaseModel.php(840): CodeIgniter\Model->doInsert()
+#5 C:\xampp\htdocs\codeigniter4-novalnew\system\Model.php(802): CodeIgniter\BaseModel->insert()
+#6 C:\xampp\htdocs\codeigniter4-novalnew\app\Controllers\FormController.php(70): CodeIgniter\Model->insert()
+#7 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+#8 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 C:\xampp\htdocs\codeigniter4-novalnew\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\codeigniter4-novalnew\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 C:\xampp\htdocs\codeigniter4-novalnew\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#13 C:\xampp\htdocs\codeigniter4-novalnew\system\rewrite.php(44): require_once('...')
+#14 {main}
+CRITICAL - 2025-01-07 02:58:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: formulir/anak]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert()
+ 5 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert()
+ 6 APPPATH\Controllers\FormController.php(70): CodeIgniter\Model->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FormController->saveAnak()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\codeigniter4-novalnew\\public\\index.php')
